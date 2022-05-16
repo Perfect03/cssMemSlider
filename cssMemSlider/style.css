@@ -204,7 +204,7 @@ input[name="point"] {
   }
   .text-content {
     padding: 0%;
-    font-size: 0.8em;
+    font-size: 0.75em;
   }
 }
 @media (max-width: 790px) {
