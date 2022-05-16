@@ -166,3 +166,78 @@ input[name="point"] {
   margin-left: -75%;
 }
 
+
+
+
+@media (max-width: 850px) {
+  .wrapper {
+    min-width: 1em;
+    margin: auto 1em;
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    max-width: 90vw;
+    width: 100%;
+    max-height: 59vw;
+  }
+}
+
+@media (max-width: 560px) {
+  .slider {
+    max-height: 80%;
+  }
+}
+
+@media (max-width: 560px) {
+  .navigation {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    height: 20%;
+  }
+}
+
+@media (max-width: 560px) {
+  .text-container {
+    width: 100%;
+  }
+  .text-content {
+    padding: 0%;
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 790px) {
+  .text-container {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 350px) {
+  .text-container {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 560px) {
+  .text-container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 560px) {
+  label {
+    max-width: 100%;
+    height: 1.1em;
+    width: 1.1em;
+  }
+}
+
+@media (max-width: 560px) {
+  
+  .button{
+    height: 0.7em;
+    width: 0.7em;
+  }
+  }
